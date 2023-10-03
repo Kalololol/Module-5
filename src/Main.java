@@ -15,9 +15,9 @@ public class Main {
         //createNewFile.readFromFile("pies.txt");
 
 
-//wygenerowac dwa pliki testowe i sprawdzić czy zostaną porównane
         CheckText checkText = new CheckText();
-        System.out.println(checkText.areTextFilesEqual("kot.txt", "kot.txt"));
+       // System.out.println(checkText.areTextFilesEqual("kot.txt", "kot.txt"));
+        checkText.invertFile1("pies.txt");
 
 
 
